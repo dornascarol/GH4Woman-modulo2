@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    int numero1, numero2, resultado1, resultado2, resultado3, resultado4;
+    {
+        printf("CALCULADORA \n");
+        
+        printf("Digite o primeiro numero: ");
+        scanf("%d", &numero1);
+        
+        printf("Digite o segundo numero: ");
+        scanf("%d", &numero2);
+        
+        resultado1 = numero1 + numero2;
+        resultado2 = numero1 - numero2;
+        resultado3 = numero1 * numero2;
+        resultado4 = numero1 / numero2;
+        
+        printf("%d + %d = %d \n", numero1, numero2, resultado1);
+        printf("%d - %d = %d \n", numero1, numero2, resultado2);
+        printf("%d * %d = %d \n", numero1, numero2, resultado3);
+        printf("%d / %d = %d \n", numero1, numero2, resultado4);
+    }
+
+    system("pause");
+}
